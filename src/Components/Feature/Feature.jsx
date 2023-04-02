@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Feature = () => {
+const Feature = (props) => {
     return (
-        <div>
-            
+        <div className='md:font-semibold text-white text-sm md:text-lg '>
+            <li>{props.feature}</li>
         </div>
     );
 };

@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Starter Plan",
+      "price": 10.99,
+      "features": [
+        "Up to 5 Projects",
+        "Basic Analytics",
+        "Limited Support"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Professional Plan",
+      "price": 19.99,
+      "features": [
+        "Up to 15 Projects",
+        "Advanced Analytics",
+        "Priority Support",
+        "Custom Domain"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Enterprise Plan",
+      "price": 29.99,
+      "features": [
+        "Unlimited Projects",
+        "Customizable Analytics",
+        "24/7 Support",
+        "Advanced Security",
+        "SSO Integration"
+      ]
+    }
+  ]
