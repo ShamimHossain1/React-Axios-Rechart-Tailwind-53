@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Link = (props) => {
-    const {path, name} = props.route
+    const { path, name } = props.route
     return (
         <div>
             <li>

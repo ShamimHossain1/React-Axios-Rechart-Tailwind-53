@@ -13,23 +13,23 @@ const Navbar = () => {
     ];
     return (
         <div className=' bg-slate-400'>
-            <div onClick={()=>setOpen(!open)} className=' md:hidden p-2'>
-            <span  >{
-                open === true ? 
-                <XMarkIcon className="w-10 text-slate-900"></XMarkIcon>:
-                <Bars3Icon className="w-10 text-slate-900" /> 
+            <div onClick={() => setOpen(!open)} className=' md:hidden p-2'>
+                <span  >{
+                    open === true ?
+                        <XMarkIcon className="w-10 text-slate-900"></XMarkIcon> :
+                        <Bars3Icon className="w-10 text-slate-900" />
 
-            }
+                }
 
-            </span>
+                </span>
 
             </div>
-            <ul className={`text-2xl absolute md:static duration-700 font-semibold p-5 md:flex justify-center gap-6 w-full  bg-slate-400 ${open ? 'top-12' : '-top-96' }`}>
+            <ul className={`text-2xl absolute md:static duration-700 font-semibold p-5 md:flex justify-center gap-6 w-full  bg-slate-400 ${open ? 'top-12' : '-top-96'}`}>
                 {
                     routes.map(route => <Link
-                    key={route.id}
-                    route = {route}
-                    ></Link> )
+                        key={route.id}
+                        route={route}
+                    ></Link>)
                 }
             </ul>
         </div>
