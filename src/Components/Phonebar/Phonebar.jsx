@@ -32,8 +32,8 @@ const Phonebar = () => {
 
 
     return (
-        <div className='border border-cyan-400 w-2/3 mx-auto my-10 rounded-lg p-5 '>
-            {/* <ResponsiveContainer> */}
+        <div className='border border-cyan-400 md:w-2/3 md:mx-auto my-10 rounded-lg md:p-5 p-3 mx-3 '>
+            <ResponsiveContainer width='100%' height={400}>
 
             <BarChart
                 width={1200}
@@ -50,7 +50,7 @@ const Phonebar = () => {
 
 
             </BarChart>
-            {/* </ResponsiveContainer> */}
+            </ResponsiveContainer>
 
 
 

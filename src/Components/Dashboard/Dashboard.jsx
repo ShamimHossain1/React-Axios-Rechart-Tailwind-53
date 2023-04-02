@@ -18,8 +18,8 @@ const Dashboard = () => {
     ];
 
     return (
-        <div className='border border-cyan-400 w-2/3 mx-auto my-10 rounded-lg p-5 '>
-            {/* <ResponsiveContainer width="100%" height="100%"> */}
+        <div className='border border-cyan-400 md:w-2/3  md:mx-auto my-10 rounded-lg md:p-5 p-3 mx-3'>
+            <ResponsiveContainer width="100%" height={400}>
 
             <LineChart
 
@@ -44,7 +44,7 @@ const Dashboard = () => {
 
 
             </LineChart>
-            {/* </ResponsiveContainer> */}
+            </ResponsiveContainer>
             {/* <div className='flex justify-center gap-4 font-semibold'>
 
             <h1 className='text-red-500'>Physics</h1>
